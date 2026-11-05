@@ -1,6 +1,5 @@
 ## Section
 <!-- home / about / events / team / blog / contact / join -->
-
 ## What changed
 <!-- 2-3 lines -->
 
