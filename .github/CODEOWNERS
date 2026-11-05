@@ -1,0 +1,7 @@
+# Lead and co-lead have EQUAL ownership of the whole repo.
+# NOTE: CODEOWNERS alone is satisfied by ONE of them. The workflow
+# .github/workflows/require-both-leads.yml is what forces BOTH to approve.
+# Section owners are NOT listed here on purpose, so a member can never approve a PR
+# (their own or someone else's) as a code owner. Section ownership lives in docs/TASKS.md.
+
+* @waleeja07-wk @OneTime24

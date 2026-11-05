@@ -1,0 +1,43 @@
+name: Require lead and co-lead approval
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+  pull_request_review:
+    types: [submitted, dismissed]
+
+permissions:
+  contents: read
+  pull-requests: read
+
+env:
+  REVIEWERS: "waleeja07-wk OneTime24"
+
+jobs:
+  both-leads-approved:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check that lead and co-lead have both approved
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          PR: ${{ github.event.pull_request.number }}
+          AUTHOR: ${{ github.event.pull_request.user.login }}
+        run: |
+          reviews=$(gh api --paginate "repos/$REPO/pulls/$PR/reviews")
+          missing=""
+          for u in $REVIEWERS; do
+            # You cannot approve your own PR, so the author is skipped
+            if [ "${u,,}" = "${AUTHOR,,}" ]; then continue; fi
+            state=$(echo "$reviews" | jq -rs --arg u "$u" '
+              [ .[][] | select((.user.login | ascii_downcase) == ($u | ascii_downcase))
+                      | select(.state == "APPROVED" or .state == "CHANGES_REQUESTED" or .state == "DISMISSED") ]
+              | last | .state // "NONE"')
+            echo "$u latest review state: $state"
+            if [ "$state" != "APPROVED" ]; then missing="$missing $u"; fi
+          done
+          if [ -n "$missing" ]; then
+            echo "::error::Waiting for approval from:$missing"
+            exit 1
+          fi
+          echo "Both required reviewers have approved."

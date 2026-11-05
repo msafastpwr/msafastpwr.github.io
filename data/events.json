@@ -1,0 +1,20 @@
+[
+  {
+    "title": "[SAMPLE] Upcoming event",
+    "date": "2027-01-15",
+    "time": "TODO",
+    "location": "TODO",
+    "summary": "TODO: replace with a real event.",
+    "image": "",
+    "link": ""
+  },
+  {
+    "title": "[SAMPLE] Past event",
+    "date": "2026-10-01",
+    "time": "TODO",
+    "location": "TODO",
+    "summary": "TODO: replace with a real event.",
+    "image": "",
+    "link": ""
+  }
+]
