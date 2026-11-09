@@ -1,0 +1,62 @@
+---
+layout: default
+title: "Events"
+description: "Workshops, technical bootcamps, and developer webinars hosted by Microsoft Student Ambassadors FAST Peshawar."
+css: "/events/events.css"
+js: "/events/events.js"
+---
+
+<!-- 
+  ========================================================================
+  ASSIGNED DEVELOPER: Mohsin Ali (events/)
+  DEVELOPER MANDATE:
+  - Upcoming workshops and sessions preview
+  - Past events archive with recaps, photos, and attendance metrics
+  - RSVP registration links & speaker showcases
+  - Centralized data contract: _data/events.json
+  ========================================================================
+-->
+
+<section class="events-hero">
+  <div class="container">
+    <div class="events-header">
+      <span class="events-tag">Events & Workshops</span>
+      <h1>Hands-on Technical Bootcamps & Sessions</h1>
+      <p class="events-lead">
+        Learn cutting-edge skills in Cloud computing, DevOps, Artificial Intelligence, and Open Source.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="events-section">
+  <div class="container">
+    <div class="events-filter-bar">
+      <button type="button" class="events-filter-btn active" data-filter="all">All Sessions</button>
+      <button type="button" class="events-filter-btn" data-filter="upcoming">Upcoming</button>
+      <button type="button" class="events-filter-btn" data-filter="completed">Past Events</button>
+    </div>
+
+    <div id="events-grid" class="events-grid">
+      <!-- Data-driven event cards rendered from _data/events.json -->
+      {% for event in site.data.events %}
+        <article class="events-card" data-status="{{ event.status }}">
+          <div class="events-card-header">
+            <span class="events-badge events-badge-{{ event.status }}">{{ event.status | capitalize }}</span>
+            <span class="events-category">{{ event.category }}</span>
+          </div>
+          <h3>{{ event.title }}</h3>
+          <p>{{ event.tagline }}</p>
+          <div class="events-meta">
+            <span>📅 {{ event.date }}</span>
+            <span>⏰ {{ event.time.start }} - {{ event.time.end }} {{ event.time.timezone }}</span>
+            <span>📍 {{ event.venue.name }}</span>
+          </div>
+          {% if event.registrationUrl %}
+            <a href="{{ event.registrationUrl }}" class="btn-primary" target="_blank" rel="noopener noreferrer">RSVP / Register</a>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>

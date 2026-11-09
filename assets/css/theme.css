@@ -1,0 +1,468 @@
+/**
+ * Microsoft Student Ambassadors - FAST NUCES Peshawar
+ * Design Tokens & Visual Architecture (assets/css/theme.css & base/theme.css)
+ * 
+ * Locked foundation based on Microsoft Azure & Fluent Design Standards.
+ * DO NOT modify brand tokens without Tech Lead & Co-Lead approval.
+ */
+
+:root {
+  /* --- Microsoft Brand Color Palette --- */
+  --ms-blue: #0078D4;
+  --ms-blue-hover: #106EBE;
+  --ms-blue-active: #005A9E;
+  --ms-blue-tint: #EBF3FC;
+  --ms-navy: #002050;
+  --ms-cyan: #00A4EF;
+  --hertech-purple: #7B42BC;
+  --hertech-purple-tint: #F3E8FF;
+  --fast-slate: #5C6B73;
+  --success: #107C10;
+  --warning: #D83B01;
+
+  /* --- Light Theme (Default) --- */
+  --bg-page: #FFFFFF;
+  --bg-surface: #F8FAFC;
+  --bg-surface-elevated: #FFFFFF;
+  --bg-card: #FFFFFF;
+  --text-primary: #0F172A;
+  --text-secondary: #475569;
+  --text-muted: #64748B;
+  --border-subtle: #E2E8F0;
+  --border-strong: #CBD5E1;
+  --border-focus: #0078D4;
+  --header-bg: rgba(255, 255, 255, 0.92);
+  --header-border: #E2E8F0;
+  --footer-bg: #002050;
+  --footer-text: #E2E8F0;
+  --footer-muted: #94A3B8;
+  --card-shadow: 0 1.6px 3.6px 0 rgba(0, 0, 0, 0.08), 0 0.3px 0.9px 0 rgba(0, 0, 0, 0.06);
+  --card-shadow-hover: 0 8px 24px 0 rgba(0, 120, 212, 0.12), 0 2px 6px 0 rgba(0, 0, 0, 0.08);
+
+  /* --- Typography --- */
+  --font-sans: "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "Cascadia Code", "Consolas", "Courier New", monospace;
+
+  /* Fluid Type Scale */
+  --font-size-hero: clamp(2rem, 5vw, 3.25rem);
+  --font-size-h1: clamp(1.75rem, 3.5vw, 2.5rem);
+  --font-size-h2: clamp(1.35rem, 2.5vw, 1.85rem);
+  --font-size-h3: clamp(1.15rem, 1.8vw, 1.4rem);
+  --font-size-body: 1rem;
+  --font-size-sm: 0.875rem;
+  --font-size-xs: 0.75rem;
+
+  /* Line Heights */
+  --line-height-tight: 1.25;
+  --line-height-normal: 1.6;
+
+  /* Layout & Spacing */
+  --container-max-width: 1200px;
+  --container-padding: 1.25rem;
+  --header-height: 72px;
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+  --border-radius-full: 9999px;
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+}
+
+/* --- Dark Theme --- */
+[data-theme="dark"] {
+  --bg-page: #0B1120;
+  --bg-surface: #0F172A;
+  --bg-surface-elevated: #1E293B;
+  --bg-card: #1E293B;
+  --text-primary: #F8FAFC;
+  --text-secondary: #94A3B8;
+  --text-muted: #64748B;
+  --border-subtle: #334155;
+  --border-strong: #475569;
+  --border-focus: #38BDF8;
+  --header-bg: rgba(11, 17, 32, 0.92);
+  --header-border: #1E293B;
+  --footer-bg: #060B14;
+  --footer-text: #F1F5F9;
+  --footer-muted: #64748B;
+  --card-shadow: 0 1.6px 3.6px 0 rgba(0, 0, 0, 0.4), 0 0.3px 0.9px 0 rgba(0, 0, 0, 0.3);
+  --card-shadow-hover: 0 8px 24px 0 rgba(0, 164, 239, 0.15), 0 2px 6px 0 rgba(0, 0, 0, 0.4);
+}
+
+/* --- Base CSS Reset & Normalization --- */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-normal);
+  color: var(--text-primary);
+  background-color: var(--bg-page);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  transition: background-color var(--transition-normal), color var(--transition-normal);
+}
+
+/* --- Accessibility Skip Navigation Link (WCAG 2.1 AA) --- */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 1rem;
+  background: var(--ms-blue);
+  color: #FFFFFF;
+  padding: 0.75rem 1.25rem;
+  border-radius: var(--border-radius-sm);
+  font-weight: 600;
+  z-index: 9999;
+  text-decoration: none;
+  transition: top var(--transition-fast);
+}
+
+.skip-link:focus {
+  top: 1rem;
+  outline: 3px solid #FFFFFF;
+}
+
+/* Universal Focus Visible Styling */
+:focus-visible {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 3px;
+}
+
+/* Touch Targets: minimum 44x44px for accessibility */
+button, 
+a, 
+input, 
+select {
+  touch-action: manipulation;
+}
+
+/* --- Typography Defaults --- */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-primary);
+  font-weight: 600;
+  line-height: var(--line-height-tight);
+}
+
+h1 { font-size: var(--font-size-h1); }
+h2 { font-size: var(--font-size-h2); }
+h3 { font-size: var(--font-size-h3); }
+
+p {
+  margin-bottom: 1rem;
+  color: var(--text-secondary);
+}
+
+a {
+  color: var(--ms-blue);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+a:hover {
+  color: var(--ms-blue-hover);
+}
+
+img, picture, svg, video {
+  max-width: 100%;
+  display: block;
+}
+
+/* --- Layout Utility Classes --- */
+.container {
+  width: 100%;
+  max-width: var(--container-max-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--container-padding);
+  padding-right: var(--container-padding);
+}
+
+.site-main {
+  flex: 1 0 auto;
+  padding-top: calc(var(--header-height) + 1.5rem);
+  padding-bottom: 3rem;
+}
+
+/* Header & Navigation Styles */
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--header-height);
+  background: var(--header-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--header-border);
+  z-index: 1000;
+  transition: background-color var(--transition-normal), border-color var(--transition-normal);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.brand-link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+  color: var(--text-primary);
+}
+
+.brand-logo {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-title {
+  font-weight: 700;
+  font-size: 1.05rem;
+  letter-spacing: -0.01em;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+
+.brand-subtitle {
+  font-size: 0.75rem;
+  color: var(--ms-blue);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  list-style: none;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--border-radius-sm);
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--text-secondary);
+  transition: all var(--transition-fast);
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--ms-blue);
+  background: var(--ms-blue-tint);
+}
+
+[data-theme="dark"] .nav-link:hover,
+[data-theme="dark"] .nav-link.active {
+  color: #38BDF8;
+  background: rgba(56, 189, 248, 0.12);
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+  background: transparent;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--border-radius-md);
+  padding: 0.5rem;
+  cursor: pointer;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+  transition: background-color var(--transition-fast);
+}
+
+.theme-toggle:hover {
+  background: var(--bg-surface);
+}
+
+/* Mobile Navigation Hamburger Toggle */
+.nav-toggle {
+  display: none;
+  background: transparent;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--border-radius-md);
+  padding: 0.5rem;
+  cursor: pointer;
+  color: var(--text-primary);
+  min-width: 44px;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Primary CTA Button */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: var(--ms-blue);
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: var(--font-size-sm);
+  padding: 0.625rem 1.25rem;
+  border-radius: var(--border-radius-sm);
+  border: none;
+  min-height: 44px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color var(--transition-fast), transform var(--transition-fast);
+}
+
+.btn-primary:hover {
+  background: var(--ms-blue-hover);
+  color: #FFFFFF;
+  transform: translateY(-1px);
+}
+
+/* Footer Styles */
+.site-footer {
+  background: var(--footer-bg);
+  color: var(--footer-text);
+  padding: 3.5rem 0 2rem 0;
+  margin-top: auto;
+  border-top: 2px solid var(--ms-blue);
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.5fr;
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.footer-col h4 {
+  color: #FFFFFF;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer-col p {
+  color: var(--footer-muted);
+  font-size: var(--font-size-sm);
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer-links a {
+  color: var(--footer-muted);
+  font-size: var(--font-size-sm);
+}
+
+.footer-links a:hover {
+  color: #FFFFFF;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: var(--font-size-xs);
+  color: var(--footer-muted);
+}
+
+/* --- Responsive Media Queries --- */
+@media (max-width: 900px) {
+  .site-nav {
+    display: none;
+    position: absolute;
+    top: var(--header-height);
+    left: 0;
+    right: 0;
+    background: var(--bg-surface-elevated);
+    border-bottom: 1px solid var(--border-subtle);
+    padding: 1rem var(--container-padding);
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: var(--card-shadow-hover);
+  }
+
+  .site-nav.is-open {
+    display: flex;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    width: 100%;
+    align-items: stretch;
+  }
+
+  .nav-link {
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+  }
+
+  .nav-toggle {
+    display: inline-flex;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 0.75rem;
+    text-align: center;
+  }
+
+  .brand-title {
+    font-size: 0.95rem;
+  }
+  
+  .brand-subtitle {
+    font-size: 0.7rem;
+  }
+}

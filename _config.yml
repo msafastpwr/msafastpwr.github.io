@@ -1,0 +1,30 @@
+title: "Microsoft Student Ambassadors | FAST NUCES Peshawar"
+description: "Official web portal of Microsoft Student Ambassadors at FAST NUCES Peshawar. Fostering student technical leadership in Cloud, AI, and DevOps."
+baseurl: ""
+url: "https://msafastpwr.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+
+# Files and directories to include in build
+include:
+  - "_data"
+  - ".github"
+
+# Files and directories to exclude from build
+exclude:
+  - "node_modules"
+  - "vendor"
+  - "package.json"
+  - "package-lock.json"
+  - "scripts"
+  - ".gitignore"
+
+# Default front matter settings
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"

@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://msafastpwr.github.io/schemas/team.schema.json",
+  "title": "MSA FAST Peshawar 56-Member Team Contract",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "name",
+      "rollNo",
+      "tier",
+      "tierRank",
+      "role",
+      "primaryDepartment",
+      "email",
+      "photo",
+      "socialLinks",
+      "badges",
+      "isActive",
+      "tenure"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+        "description": "Unique URL-safe member slug"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 3
+      },
+      "rollNo": {
+        "type": "string",
+        "pattern": "^[0-9]{2}P-[0-9]{4}$"
+      },
+      "tier": {
+        "type": "string",
+        "enum": ["executive", "leadership", "member"],
+        "description": "Tier 1: Executive Board, Tier 2: Leads & Co-Leads, Tier 3: General Members"
+      },
+      "tierRank": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "Sorting priority within tier"
+      },
+      "role": {
+        "type": "string"
+      },
+      "primaryDepartment": {
+        "type": "string",
+        "enum": [
+          "Executive Board",
+          "Technical Team",
+          "Her Tech Wing",
+          "Media Team",
+          "Events Team",
+          "Outreach Team",
+          "Graphics Team"
+        ]
+      },
+      "secondaryDepartment": {
+        "type": ["string", "null"],
+        "enum": [
+          null,
+          "Executive Board",
+          "Technical Team",
+          "Her Tech Wing",
+          "Media Team",
+          "Events Team",
+          "Outreach Team",
+          "Graphics Team"
+        ]
+      },
+      "email": {
+        "type": "string"
+      },
+      "photo": {
+        "type": "object",
+        "required": ["url", "placeholderUrl", "alt"],
+        "properties": {
+          "url": { "type": "string", "pattern": "\\.webp$" },
+          "placeholderUrl": { "type": "string" },
+          "alt": { "type": "string" }
+        }
+      },
+      "socialLinks": {
+        "type": "object",
+        "properties": {
+          "linkedin": { "type": ["string", "null"] },
+          "github": { "type": ["string", "null"] },
+          "twitter": { "type": ["string", "null"] },
+          "portfolio": { "type": ["string", "null"] }
+        }
+      },
+      "badges": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "bio": {
+        "type": ["string", "null"]
+      },
+      "isActive": {
+        "type": "boolean",
+        "default": true
+      },
+      "tenure": {
+        "type": "string",
+        "default": "2026-2027"
+      }
+    }
+  }
+}

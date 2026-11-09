@@ -1,0 +1,76 @@
+/**
+ * Resources Page Stylesheet (resources/resources.css)
+ * Assigned Developer: Waleeja Khan
+ * Rule: Only use variables defined in theme.css; prefix all classes with .resources-
+ */
+
+.resources-hero {
+  padding: 3.5rem 0 2.5rem 0;
+  background: var(--bg-surface);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.resources-tag {
+  display: inline-block;
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  color: var(--ms-blue);
+  background: var(--ms-blue-tint);
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--border-radius-full);
+  margin-bottom: 1rem;
+}
+
+.resources-lead {
+  font-size: 1.15rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-top: 1rem;
+  max-width: 700px;
+}
+
+.resources-section {
+  padding: 3.5rem 0;
+}
+
+.resources-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.75rem;
+}
+
+.resources-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--border-radius-md);
+  padding: 2rem;
+  box-shadow: var(--card-shadow);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.resources-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--card-shadow-hover);
+}
+
+.resources-badge {
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  color: var(--ms-blue);
+  background: var(--ms-blue-tint);
+  padding: 0.2rem 0.6rem;
+  border-radius: var(--border-radius-sm);
+  margin-bottom: 1rem;
+}
+
+.resources-card h3 {
+  margin-bottom: 0.75rem;
+}
+
+.resources-card p {
+  flex-grow: 1;
+  margin-bottom: 1.5rem;
+}

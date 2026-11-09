@@ -1,0 +1,9 @@
+/**
+ * Microsoft Student Ambassadors - FAST NUCES Peshawar
+ * Design Tokens & Visual Architecture (base/theme.css)
+ * 
+ * Locked foundation based on Microsoft Azure & Fluent Design Standards.
+ * Mirrors assets/css/theme.css to ensure compatibility across all pages.
+ */
+
+@import url('../assets/css/theme.css');

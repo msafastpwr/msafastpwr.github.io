@@ -1,0 +1,30 @@
+name: Website Quality & Compliance CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    name: Code Quality & Schema Validation
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python Dependencies
+        run: pip install jsonschema
+
+      - name: Validate JSON Schemas & Data Contracts
+        run: python scripts/validate-schemas.py
+
+      - name: Enforce WebP Image Standards
+        run: bash scripts/validate-images.sh

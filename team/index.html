@@ -1,0 +1,80 @@
+---
+layout: default
+title: "Team"
+description: "Meet the executive council, departmental leads, and student ambassadors of MSA FAST Peshawar."
+css: "/team/team.css"
+---
+
+<!-- 
+  ========================================================================
+  ASSIGNED DEVELOPER: Syeda Areej E Fatima (team/)
+  DEVELOPER MANDATE:
+  - Dynamic roster rendering of all 56 chapter members across:
+    * Executive Board (Rayyan Shaheer, Subhan Baig, Asawir binte Asif, etc.)
+    * Technical Team (Lead: Waleeja Khan, Co-Lead: Mohsin Ali)
+    * Her Tech Wing (Lead: Waleeja Khan, Co-Lead: Khushbakht Khan)
+    * Media, Events, Outreach, and Graphics Teams
+  - Single source of truth data contract: _data/team.json
+  - Circular headshots (border-radius: 50%) using WebP avatars
+  ========================================================================
+-->
+
+<section class="team-hero">
+  <div class="container">
+    <div class="team-header">
+      <span class="team-tag">Chapter Roster (2026–2027)</span>
+      <h1>Leadership & Core Body</h1>
+      <p class="team-lead">
+        A diverse community of 56 engineers, designers, and organizers driving student innovation at FAST-NUCES Peshawar.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="team-section">
+  <div class="container">
+    <!-- Executive Council Tier -->
+    <div class="team-tier-block">
+      <h2 class="team-tier-title">Executive Board</h2>
+      <div class="team-grid">
+        {% for member in site.data.team %}
+          {% if member.tier == "executive" %}
+            <article class="team-card">
+              <div class="team-avatar-wrap">
+                <img src="{{ member.photo.url }}" alt="{{ member.photo.alt }}" class="team-avatar" width="120" height="120" loading="lazy" decoding="async" onerror="this.src='/images/team/placeholder.webp'">
+              </div>
+              <h3 class="team-member-name">{{ member.name }}</h3>
+              <p class="team-member-role">{{ member.role }}</p>
+              <span class="team-member-roll">{{ member.rollNo }}</span>
+              {% if member.secondaryDepartment %}
+                <span class="team-badge-secondary">{{ member.secondaryDepartment }}</span>
+              {% endif %}
+            </article>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+
+    <!-- Departmental Leadership Tier -->
+    <div class="team-tier-block" style="margin-top: 3.5rem;">
+      <h2 class="team-tier-title">Departmental Leadership</h2>
+      <div class="team-grid">
+        {% for member in site.data.team %}
+          {% if member.tier == "leadership" %}
+            <article class="team-card">
+              <div class="team-avatar-wrap">
+                <img src="{{ member.photo.url }}" alt="{{ member.photo.alt }}" class="team-avatar" width="120" height="120" loading="lazy" decoding="async" onerror="this.src='/images/team/placeholder.webp'">
+              </div>
+              <h3 class="team-member-name">{{ member.name }}</h3>
+              <p class="team-member-role">{{ member.role }} &bull; {{ member.primaryDepartment }}</p>
+              <span class="team-member-roll">{{ member.rollNo }}</span>
+              {% if member.secondaryDepartment %}
+                <span class="team-badge-secondary">{{ member.secondaryDepartment }}</span>
+              {% endif %}
+            </article>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

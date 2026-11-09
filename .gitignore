@@ -1,4 +1,34 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# IDE & Editor Settings
 .vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jekyll & Static Build Artifacts
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Node & Package Managers
 node_modules/
+package-lock.json
+yarn.lock
+
+# Python Virtual Environments & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Environment Variables & Logs
 .env
 *.log

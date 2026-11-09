@@ -1,0 +1,50 @@
+<header class="site-header" role="banner">
+  <div class="container header-inner">
+    <!-- Brand Logo & Title -->
+    <a href="/" class="brand-link" aria-label="MSA FAST Peshawar Home">
+      <img src="/images/shared/logo.webp" alt="Microsoft Student Ambassadors Logo" class="brand-logo" width="40" height="40" onerror="this.src='/images/shared/logo.png'">
+      <div class="brand-text">
+        <span class="brand-title">Microsoft Student Ambassadors</span>
+        <span class="brand-subtitle">FAST NUCES Peshawar</span>
+      </div>
+    </a>
+
+    <!-- Navigation Menu -->
+    <nav class="site-nav" id="site-nav" role="navigation" aria-label="Primary Navigation">
+      <ul class="nav-list">
+        <li><a href="/" class="nav-link {% if page.url == '/' %}active{% endif %}">Home</a></li>
+        <li><a href="/about/" class="nav-link {% if page.url contains '/about/' %}active{% endif %}">About</a></li>
+        <li><a href="/events/" class="nav-link {% if page.url contains '/events/' %}active{% endif %}">Events</a></li>
+        <li><a href="/team/" class="nav-link {% if page.url contains '/team/' %}active{% endif %}">Team</a></li>
+        <li><a href="/gallery/" class="nav-link {% if page.url contains '/gallery/' %}active{% endif %}">Gallery</a></li>
+        <li><a href="/resources/" class="nav-link {% if page.url contains '/resources/' %}active{% endif %}">Resources</a></li>
+        <li><a href="/join/" class="nav-link btn-primary" style="margin-left: 0.5rem;">Join Us</a></li>
+      </ul>
+    </nav>
+
+    <!-- Header Controls: Theme Toggle & Mobile Hamburger -->
+    <div class="header-actions">
+      <button type="button" class="theme-toggle" aria-label="Toggle dark and light theme" title="Toggle theme">
+        <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="5"></circle>
+          <line x1="12" y1="1" x2="12" y2="3"></line>
+          <line x1="12" y1="21" x2="12" y2="23"></line>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+          <line x1="1" y1="12" x2="3" y2="12"></line>
+          <line x1="21" y1="12" x2="23" y2="12"></line>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+      </button>
+
+      <button type="button" class="nav-toggle" aria-label="Toggle navigation menu" aria-controls="site-nav" aria-expanded="false">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>

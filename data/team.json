@@ -1,0 +1,1641 @@
+[
+  {
+    "id": "najaf-akash",
+    "name": "Najaf Akash",
+    "rollNo": "24P-0704",
+    "tier": "executive",
+    "tierRank": 1,
+    "role": "General Secretary",
+    "primaryDepartment": "Executive Board",
+    "secondaryDepartment": null,
+    "email": "24p0704@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/24p0704.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Najaf Akash, General Secretary"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "General Secretary",
+      "Executive Board"
+    ],
+    "bio": "General Secretary of Microsoft Student Ambassadors FAST Peshawar chapter.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "asawir-binte-asif",
+    "name": "Asawir binte Asif",
+    "rollNo": "24P-0576",
+    "tier": "executive",
+    "tierRank": 1,
+    "role": "Vice President",
+    "primaryDepartment": "Executive Board",
+    "secondaryDepartment": "Her Tech Wing",
+    "email": "24p0576@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/24p0576.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Asawir binte Asif, Vice President"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Vice President",
+      "Executive Board"
+    ],
+    "bio": "Vice President of Microsoft Student Ambassadors FAST Peshawar chapter.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "rayyan-shaheer",
+    "name": "Rayyan Shaheer",
+    "rollNo": "23P-0557",
+    "tier": "executive",
+    "tierRank": 1,
+    "role": "President",
+    "primaryDepartment": "Executive Board",
+    "secondaryDepartment": null,
+    "email": "23p0557@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/23p0557.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Rayyan Shaheer, President"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "President",
+      "Executive Board"
+    ],
+    "bio": "President of Microsoft Student Ambassadors FAST Peshawar chapter.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "subhan-baig",
+    "name": "Subhan Baig",
+    "rollNo": "24P-0632",
+    "tier": "executive",
+    "tierRank": 1,
+    "role": "Vice President",
+    "primaryDepartment": "Executive Board",
+    "secondaryDepartment": null,
+    "email": "24p0632@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/24p0632.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Subhan Baig, Vice President"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Vice President",
+      "Executive Board"
+    ],
+    "bio": "Vice President of Microsoft Student Ambassadors FAST Peshawar chapter.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "abdulraheem",
+    "name": "AbdulRaheem",
+    "rollNo": "23P-0591",
+    "tier": "executive",
+    "tierRank": 1,
+    "role": "Exectuive Advisor",
+    "primaryDepartment": "Executive Board",
+    "secondaryDepartment": null,
+    "email": "23p0591@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/23p0591.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of AbdulRaheem, Exectuive Advisor"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Exectuive Advisor",
+      "Executive Board"
+    ],
+    "bio": "Exectuive Advisor of Microsoft Student Ambassadors FAST Peshawar chapter.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "anas-malik",
+    "name": "Anas Malik",
+    "rollNo": "24P-0652",
+    "tier": "executive",
+    "tierRank": 1,
+    "role": "Outreach Advisor",
+    "primaryDepartment": "Executive Board",
+    "secondaryDepartment": null,
+    "email": "24p0652@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/24p0652.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Anas Malik, Outreach Advisor"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Outreach Advisor",
+      "Executive Board"
+    ],
+    "bio": "Outreach Advisor of Microsoft Student Ambassadors FAST Peshawar chapter.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "waleeja-khan",
+    "name": "Waleeja Khan",
+    "rollNo": "25P-0005",
+    "tier": "leadership",
+    "tierRank": 2,
+    "role": "Lead",
+    "primaryDepartment": "Technical Team",
+    "secondaryDepartment": "Her Tech Wing",
+    "email": "25p0005@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/25p0005.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Waleeja Khan, Lead"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Lead",
+      "Technical Team"
+    ],
+    "bio": "Lead in Technical Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "mohsin-ali",
+    "name": "Mohsin Ali",
+    "rollNo": "25P-0545",
+    "tier": "leadership",
+    "tierRank": 2,
+    "role": "Co-Lead",
+    "primaryDepartment": "Technical Team",
+    "secondaryDepartment": null,
+    "email": "25p0545@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/25p0545.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Mohsin Ali, Co-Lead"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Co-Lead",
+      "Technical Team"
+    ],
+    "bio": "Co-Lead in Technical Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "zain-ul-abdeen",
+    "name": "Zain Ul Abdeen",
+    "rollNo": "26P-0611",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Technical Team",
+    "secondaryDepartment": null,
+    "email": "26p0611@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/26p0611.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Zain Ul Abdeen, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Technical Team"
+    ],
+    "bio": "Core Team Member in Technical Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "muhammad-maooz",
+    "name": "Muhammad Maooz",
+    "rollNo": "26P-0513",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Technical Team",
+    "secondaryDepartment": null,
+    "email": "26p0513@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/26p0513.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Muhammad Maooz, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Technical Team"
+    ],
+    "bio": "Core Team Member in Technical Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "abdul-wahab-khan",
+    "name": "Abdul Wahab Khan",
+    "rollNo": "26P-0049",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Technical Team",
+    "secondaryDepartment": null,
+    "email": "26p0049@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/26p0049.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Abdul Wahab Khan, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Technical Team"
+    ],
+    "bio": "Core Team Member in Technical Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "usman-ghani-khan",
+    "name": "Usman Ghani Khan",
+    "rollNo": "25P-0006",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Technical Team",
+    "secondaryDepartment": null,
+    "email": "25p0006@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/25p0006.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Usman Ghani Khan, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Technical Team"
+    ],
+    "bio": "Core Team Member in Technical Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "mueez-khalid",
+    "name": "Mueez khalid",
+    "rollNo": "24P-0742",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Technical Team",
+    "secondaryDepartment": null,
+    "email": "24p0742@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/24p0742.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Mueez khalid, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Technical Team"
+    ],
+    "bio": "Core Team Member in Technical Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "faiz-ul-hassan",
+    "name": "Faiz Ul Hassan",
+    "rollNo": "24P-3065",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Technical Team",
+    "secondaryDepartment": null,
+    "email": "24p3065@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/24p3065.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Faiz Ul Hassan, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Technical Team"
+    ],
+    "bio": "Core Team Member in Technical Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "haris-khan",
+    "name": "Haris Khan",
+    "rollNo": "25P-0737",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Technical Team",
+    "secondaryDepartment": null,
+    "email": "25p0737@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/25p0737.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Haris Khan, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Technical Team"
+    ],
+    "bio": "Core Team Member in Technical Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "ziaullah",
+    "name": "Ziaullah",
+    "rollNo": "24P-0660",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Technical Team",
+    "secondaryDepartment": null,
+    "email": "24p0660@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/24p0660.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Ziaullah, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Technical Team"
+    ],
+    "bio": "Core Team Member in Technical Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "zubair-ahmed",
+    "name": "Zubair Ahmed",
+    "rollNo": "23P-0694",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Technical Team",
+    "secondaryDepartment": null,
+    "email": "23p0694@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/23p0694.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Zubair Ahmed, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Technical Team"
+    ],
+    "bio": "Core Team Member in Technical Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "muhammad-fasih-zeeshan",
+    "name": "Muhammad Fasih Zeeshan",
+    "rollNo": "25P-0603",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Technical Team",
+    "secondaryDepartment": null,
+    "email": "25p0603@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/25p0603.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Muhammad Fasih Zeeshan, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Technical Team"
+    ],
+    "bio": "Core Team Member in Technical Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "ahmed-atiq",
+    "name": "Ahmed Atiq",
+    "rollNo": "25P-0575",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Technical Team",
+    "secondaryDepartment": null,
+    "email": "25p0575@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/25p0575.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Ahmed Atiq, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Technical Team"
+    ],
+    "bio": "Core Team Member in Technical Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "syeda-areej-e-fatima",
+    "name": "Syeda Areej E Fatima",
+    "rollNo": "25P-0014",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Technical Team",
+    "secondaryDepartment": "Her Tech Wing",
+    "email": "25p0014@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/25p0014.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Syeda Areej E Fatima, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Technical Team"
+    ],
+    "bio": "Core Team Member in Technical Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "muhammad-fahim-shah",
+    "name": "Muhammad Fahim Shah",
+    "rollNo": "25P-0632",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Technical Team",
+    "secondaryDepartment": null,
+    "email": "25p0632@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/25p0632.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Muhammad Fahim Shah, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Technical Team"
+    ],
+    "bio": "Core Team Member in Technical Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "muhammad-faiq-shaikh",
+    "name": "Muhammad Faiq Shaikh",
+    "rollNo": "25P-0605",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Technical Team",
+    "secondaryDepartment": null,
+    "email": "25p0605@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/25p0605.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Muhammad Faiq Shaikh, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Technical Team"
+    ],
+    "bio": "Core Team Member in Technical Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "faisal-ahmad",
+    "name": "Faisal Ahmad",
+    "rollNo": "26P-0511",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Technical Team",
+    "secondaryDepartment": null,
+    "email": "26p0511@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/26p0511.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Faisal Ahmad, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Technical Team"
+    ],
+    "bio": "Core Team Member in Technical Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "ali-raza-khan",
+    "name": "Ali Raza Khan",
+    "rollNo": "25P-0729",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Technical Team",
+    "secondaryDepartment": null,
+    "email": "25p0729@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/25p0729.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Ali Raza Khan, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Technical Team"
+    ],
+    "bio": "Core Team Member in Technical Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "syeda-dur-e-yamin-naqvi",
+    "name": "Syeda Dur E Yamin Naqvi",
+    "rollNo": "26P-6509",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Technical Team",
+    "secondaryDepartment": "Her Tech Wing",
+    "email": "26p6509@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/26p6509.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Syeda Dur E Yamin Naqvi, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Technical Team"
+    ],
+    "bio": "Core Team Member in Technical Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "ali-hamza-saifi",
+    "name": "Ali Hamza Saifi",
+    "rollNo": "24P-0575",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Technical Team",
+    "secondaryDepartment": null,
+    "email": "24p0575@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/24p0575.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Ali Hamza Saifi, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Technical Team"
+    ],
+    "bio": "Core Team Member in Technical Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "huzaifa-mujtaba",
+    "name": "Huzaifa Mujtaba",
+    "rollNo": "25P-0694",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Technical Team",
+    "secondaryDepartment": null,
+    "email": "25p0694@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/25p0694.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Huzaifa Mujtaba, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Technical Team"
+    ],
+    "bio": "Core Team Member in Technical Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "muhammad-hashar",
+    "name": "Muhammad Hashar",
+    "rollNo": "26P-0640",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Technical Team",
+    "secondaryDepartment": null,
+    "email": "26p0640@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/26p0640.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Muhammad Hashar, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Technical Team"
+    ],
+    "bio": "Core Team Member in Technical Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "mehmood-akbar-khan",
+    "name": "Mehmood Akbar Khan",
+    "rollNo": "24P-3037",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Technical Team",
+    "secondaryDepartment": null,
+    "email": "24p3037@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/24p3037.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Mehmood Akbar Khan, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Technical Team"
+    ],
+    "bio": "Core Team Member in Technical Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "muhammad-haider-abdullah",
+    "name": "Muhammad Haider Abdullah",
+    "rollNo": "26P-0552",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Technical Team",
+    "secondaryDepartment": null,
+    "email": "26p0552@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/26p0552.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Muhammad Haider Abdullah, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Technical Team"
+    ],
+    "bio": "Core Team Member in Technical Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "syed-kumail-abbas-sherazi",
+    "name": "Syed kumail Abbas Sherazi",
+    "rollNo": "26P-3034",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Technical Team",
+    "secondaryDepartment": null,
+    "email": "26p3034@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/26p3034.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Syed kumail Abbas Sherazi, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Technical Team"
+    ],
+    "bio": "Core Team Member in Technical Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "sahar-abid",
+    "name": "Sahar Abid",
+    "rollNo": "25P-0505",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Technical Team",
+    "secondaryDepartment": "Her Tech Wing",
+    "email": "25p0505@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/25p0505.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Sahar Abid, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Technical Team"
+    ],
+    "bio": "Core Team Member in Technical Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "khushbakht-khan",
+    "name": "Khushbakht Khan",
+    "rollNo": "24P-0682",
+    "tier": "leadership",
+    "tierRank": 2,
+    "role": "Lead",
+    "primaryDepartment": "Her Tech Wing",
+    "secondaryDepartment": "Her Tech Wing",
+    "email": "24p0682@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/24p0682.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Khushbakht Khan, Lead"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Lead",
+      "Her Tech Wing"
+    ],
+    "bio": "Lead in Her Tech Wing.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "manahal-amjad",
+    "name": "Manahal Amjad",
+    "rollNo": "25P-0555",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Her Tech Wing",
+    "secondaryDepartment": "Media Team",
+    "email": "25p0555@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/25p0555.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Manahal Amjad, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Her Tech Wing"
+    ],
+    "bio": "Core Team Member in Her Tech Wing.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "areeha-qaiser",
+    "name": "Areeha Qaiser",
+    "rollNo": "26P-3051",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Her Tech Wing",
+    "secondaryDepartment": "Outreach Team",
+    "email": "26p3051@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/26p3051.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Areeha Qaiser, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Her Tech Wing"
+    ],
+    "bio": "Core Team Member in Her Tech Wing.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "hamza-rana",
+    "name": "Hamza Rana",
+    "rollNo": "24P-0587",
+    "tier": "leadership",
+    "tierRank": 2,
+    "role": "Lead",
+    "primaryDepartment": "Media Team",
+    "secondaryDepartment": null,
+    "email": "24p0587@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/24p0587.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Hamza Rana, Lead"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Lead",
+      "Media Team"
+    ],
+    "bio": "Lead in Media Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "muhammad-mohtasim",
+    "name": "Muhammad Mohtasim",
+    "rollNo": "26P-0694",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Media Team",
+    "secondaryDepartment": null,
+    "email": "26p0694@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/26p0694.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Muhammad Mohtasim, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Media Team"
+    ],
+    "bio": "Core Team Member in Media Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "khalil-ahmed",
+    "name": "Khalil Ahmed",
+    "rollNo": "26P-0597",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Media Team",
+    "secondaryDepartment": null,
+    "email": "26p0597@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/26p0597.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Khalil Ahmed, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Media Team"
+    ],
+    "bio": "Core Team Member in Media Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "muhammad-kaif",
+    "name": "Muhammad Kaif",
+    "rollNo": "25P-0692",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Media Team",
+    "secondaryDepartment": null,
+    "email": "25p0692@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/25p0692.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Muhammad Kaif, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Media Team"
+    ],
+    "bio": "Core Team Member in Media Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "muhammad-ali",
+    "name": "Muhammad Ali",
+    "rollNo": "24P-0723",
+    "tier": "leadership",
+    "tierRank": 2,
+    "role": "Lead",
+    "primaryDepartment": "Events Team",
+    "secondaryDepartment": null,
+    "email": "24p0723@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/24p0723.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Muhammad Ali, Lead"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Lead",
+      "Events Team"
+    ],
+    "bio": "Lead in Events Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "hassan-israr",
+    "name": "Hassan Israr",
+    "rollNo": "24P-3001",
+    "tier": "leadership",
+    "tierRank": 2,
+    "role": "Co-Lead",
+    "primaryDepartment": "Events Team",
+    "secondaryDepartment": null,
+    "email": "24p3001@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/24p3001.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Hassan Israr, Co-Lead"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Co-Lead",
+      "Events Team"
+    ],
+    "bio": "Co-Lead in Events Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "roshan-jagdesh",
+    "name": "Roshan Jagdesh",
+    "rollNo": "23P-0631",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Events Team",
+    "secondaryDepartment": null,
+    "email": "23p0631@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/23p0631.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Roshan Jagdesh, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Events Team"
+    ],
+    "bio": "Core Team Member in Events Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "kamal-ahmad",
+    "name": "Kamal Ahmad",
+    "rollNo": "25P-6547",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Events Team",
+    "secondaryDepartment": null,
+    "email": "25p6547@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/25p6547.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Kamal Ahmad, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Events Team"
+    ],
+    "bio": "Core Team Member in Events Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "abdullah-saeed",
+    "name": "Abdullah Saeed",
+    "rollNo": "25P-0071",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Events Team",
+    "secondaryDepartment": null,
+    "email": "25p0071@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/25p0071.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Abdullah Saeed, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Events Team"
+    ],
+    "bio": "Core Team Member in Events Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "muhammad-irtaza",
+    "name": "Muhammad irtaza",
+    "rollNo": "25P-0649",
+    "tier": "leadership",
+    "tierRank": 2,
+    "role": "Lead",
+    "primaryDepartment": "Outreach Team",
+    "secondaryDepartment": null,
+    "email": "25p0649@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/25p0649.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Muhammad irtaza, Lead"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Lead",
+      "Outreach Team"
+    ],
+    "bio": "Lead in Outreach Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "kanwar-farzan-ahmad",
+    "name": "Kanwar Farzan Ahmad",
+    "rollNo": "26P-0528",
+    "tier": "leadership",
+    "tierRank": 2,
+    "role": "Co-Lead",
+    "primaryDepartment": "Outreach Team",
+    "secondaryDepartment": null,
+    "email": "26p0528@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/26p0528.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Kanwar Farzan Ahmad, Co-Lead"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Co-Lead",
+      "Outreach Team"
+    ],
+    "bio": "Co-Lead in Outreach Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "muhammad-saad-farooq",
+    "name": "Muhammad Saad Farooq",
+    "rollNo": "26P-0531",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Outreach Team",
+    "secondaryDepartment": null,
+    "email": "26p0531@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/26p0531.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Muhammad Saad Farooq, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Outreach Team"
+    ],
+    "bio": "Core Team Member in Outreach Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "shaikh-muhammad-azhan-ali",
+    "name": "Shaikh Muhammad Azhan Ali",
+    "rollNo": "25P-0509",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Outreach Team",
+    "secondaryDepartment": null,
+    "email": "25p0509@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/25p0509.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Shaikh Muhammad Azhan Ali, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Outreach Team"
+    ],
+    "bio": "Core Team Member in Outreach Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "muhammad-umair-kamal",
+    "name": "Muhammad Umair Kamal",
+    "rollNo": "26P-0039",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Outreach Team",
+    "secondaryDepartment": null,
+    "email": "26p0039@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/26p0039.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Muhammad Umair Kamal, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Outreach Team"
+    ],
+    "bio": "Core Team Member in Outreach Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "junaid-zafar",
+    "name": "Junaid Zafar",
+    "rollNo": "26P-0719",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Outreach Team",
+    "secondaryDepartment": null,
+    "email": "26p0719@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/26p0719.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Junaid Zafar, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Outreach Team"
+    ],
+    "bio": "Core Team Member in Outreach Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "arham-tasleem",
+    "name": "Arham Tasleem",
+    "rollNo": "26P-0616",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Outreach Team",
+    "secondaryDepartment": null,
+    "email": "26p0616@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/26p0616.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Arham Tasleem, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Outreach Team"
+    ],
+    "bio": "Core Team Member in Outreach Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "muhammad-afroze-naeem",
+    "name": "Muhammad afroze naeem",
+    "rollNo": "26P-0514",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Outreach Team",
+    "secondaryDepartment": null,
+    "email": "26p0514@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/26p0514.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Muhammad afroze naeem, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Outreach Team"
+    ],
+    "bio": "Core Team Member in Outreach Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "muhammad-usman-shahzad",
+    "name": "Muhammad Usman Shahzad",
+    "rollNo": "26P-0676",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Outreach Team",
+    "secondaryDepartment": null,
+    "email": "26p0676@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/26p0676.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Muhammad Usman Shahzad, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Outreach Team"
+    ],
+    "bio": "Core Team Member in Outreach Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "muhammad-ashir-laiq",
+    "name": "Muhammad Ashir Laiq",
+    "rollNo": "26P-0547",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Outreach Team",
+    "secondaryDepartment": null,
+    "email": "26p0547@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/26p0547.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Muhammad Ashir Laiq, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Outreach Team"
+    ],
+    "bio": "Core Team Member in Outreach Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "aqib-shah",
+    "name": "Aqib Shah",
+    "rollNo": "26P-0582",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Outreach Team",
+    "secondaryDepartment": null,
+    "email": "26p0582@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/26p0582.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Aqib Shah, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Outreach Team"
+    ],
+    "bio": "Core Team Member in Outreach Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "danial-hassan",
+    "name": "Danial Hassan",
+    "rollNo": "24P-0747",
+    "tier": "leadership",
+    "tierRank": 2,
+    "role": "Lead",
+    "primaryDepartment": "Graphics Team",
+    "secondaryDepartment": null,
+    "email": "24p0747@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/24p0747.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Danial Hassan, Lead"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Lead",
+      "Graphics Team"
+    ],
+    "bio": "Lead in Graphics Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "talha-mir",
+    "name": "Talha Mir",
+    "rollNo": "26P-0508",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Graphics Team",
+    "secondaryDepartment": null,
+    "email": "26p0508@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/26p0508.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Talha Mir, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Graphics Team"
+    ],
+    "bio": "Core Team Member in Graphics Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  },
+  {
+    "id": "raheel-khan",
+    "name": "Raheel khan",
+    "rollNo": "26P-0529",
+    "tier": "member",
+    "tierRank": 3,
+    "role": "Member",
+    "primaryDepartment": "Graphics Team",
+    "secondaryDepartment": null,
+    "email": "26p0529@pwr.nu.edu.pk",
+    "photo": {
+      "url": "/images/team/26p0529.webp",
+      "placeholderUrl": "/images/team/placeholder.webp",
+      "alt": "Portrait of Raheel khan, Member"
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "twitter": null,
+      "portfolio": null
+    },
+    "badges": [
+      "Graphics Team"
+    ],
+    "bio": "Core Team Member in Graphics Team.",
+    "isActive": true,
+    "tenure": "2026-2027"
+  }
+]

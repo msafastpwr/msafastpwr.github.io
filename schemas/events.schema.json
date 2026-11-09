@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://msafastpwr.github.io/schemas/events.schema.json",
+  "title": "MSA FAST Peshawar Events Contract",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "title",
+      "tagline",
+      "description",
+      "date",
+      "time",
+      "venue",
+      "category",
+      "tags",
+      "status",
+      "speakers",
+      "image",
+      "featured"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+        "description": "Unique URL-safe event slug"
+      },
+      "title": {
+        "type": "string",
+        "minLength": 5,
+        "maxLength": 100
+      },
+      "tagline": {
+        "type": "string",
+        "maxLength": 160
+      },
+      "description": {
+        "type": "string",
+        "minLength": 20
+      },
+      "date": {
+        "type": "string",
+        "format": "date",
+        "description": "ISO 8601 date (YYYY-MM-DD)"
+      },
+      "time": {
+        "type": "object",
+        "required": ["start", "end", "timezone"],
+        "properties": {
+          "start": { "type": "string", "pattern": "^([01]\\d|2[0-3]):[0-5]\\d$" },
+          "end": { "type": "string", "pattern": "^([01]\\d|2[0-3]):[0-5]\\d$" },
+          "timezone": { "type": "string", "default": "PKT (UTC+5)" }
+        }
+      },
+      "venue": {
+        "type": "object",
+        "required": ["name", "campus", "isVirtual"],
+        "properties": {
+          "name": { "type": "string" },
+          "campus": { "type": "string", "default": "FAST NUCES Peshawar" },
+          "room": { "type": ["string", "null"] },
+          "isVirtual": { "type": "boolean" },
+          "virtualLink": { "type": ["string", "null"], "format": "uri" }
+        }
+      },
+      "category": {
+        "type": "string",
+        "enum": ["Workshop", "Seminar", "Hackathon", "Orientation", "Competition", "Webinar", "Panel Discussion"]
+      },
+      "tags": {
+        "type": "array",
+        "items": { "type": "string" },
+        "minItems": 1
+      },
+      "status": {
+        "type": "string",
+        "enum": ["upcoming", "completed", "cancelled", "postponed"]
+      },
+      "registrationUrl": { "type": ["string", "null"], "format": "uri" },
+      "registrationDeadline": { "type": ["string", "null"] },
+      "speakers": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["name", "role", "organization"],
+          "properties": {
+            "name": { "type": "string" },
+            "role": { "type": "string" },
+            "organization": { "type": "string" },
+            "photoUrl": { "type": ["string", "null"] },
+            "linkedinUrl": { "type": ["string", "null"], "format": "uri" }
+          }
+        }
+      },
+      "image": {
+        "type": "object",
+        "required": ["posterUrl", "thumbnailUrl", "altText"],
+        "properties": {
+          "posterUrl": { "type": "string", "pattern": "\\.webp$" },
+          "thumbnailUrl": { "type": "string", "pattern": "\\.webp$" },
+          "altText": { "type": "string", "minLength": 10 }
+        }
+      },
+      "featured": {
+        "type": "boolean",
+        "description": "If true, displays in Home page upcoming events preview card"
+      },
+      "s04FormId": { "type": ["string", "null"] },
+      "recap": {
+        "type": ["object", "null"],
+        "properties": {
+          "attendeeCount": { "type": "integer" },
+          "photoAlbumUrl": { "type": ["string", "null"], "format": "uri" },
+          "reportUrl": { "type": ["string", "null"] }
+        }
+      }
+    }
+  }
+}

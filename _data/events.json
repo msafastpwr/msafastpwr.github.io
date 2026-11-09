@@ -1,0 +1,95 @@
+[
+  {
+    "id": "s04-hertech-panel-2026",
+    "title": "Beyond the Bubble: Get Seen, Get Heard",
+    "tagline": "Empowering women in technology through personal branding and industry leadership.",
+    "description": "An exclusive panel session hosted by Her Tech Wing featuring women in tech sharing tactical advice on breaking barriers, building visibility, and navigating software engineering careers.",
+    "date": "2026-11-25",
+    "time": {
+      "start": "14:00",
+      "end": "16:00",
+      "timezone": "PKT (UTC+5)"
+    },
+    "venue": {
+      "name": "Main Auditorium / Hall A",
+      "campus": "FAST NUCES Peshawar",
+      "room": "Hall A",
+      "isVirtual": false,
+      "virtualLink": null
+    },
+    "category": "Panel Discussion",
+    "tags": ["HerTech", "WomenInTech", "Career", "Leadership", "Networking"],
+    "status": "upcoming",
+    "registrationUrl": "https://forms.gle/msafastpwr-hertech-2026",
+    "registrationDeadline": "2026-11-24T23:59:59+05:00",
+    "speakers": [
+      {
+        "name": "Hamna Khalil",
+        "role": "Software Engineer & Community Mentor",
+        "organization": "FAST Alumni Network",
+        "photoUrl": "/images/team/placeholder.webp",
+        "linkedinUrl": "https://linkedin.com"
+      },
+      {
+        "name": "Mashaal Jawad",
+        "role": "Cloud Architect & Tech Advocate",
+        "organization": "Tech Women Lead",
+        "photoUrl": "/images/team/placeholder.webp",
+        "linkedinUrl": "https://linkedin.com"
+      }
+    ],
+    "image": {
+      "posterUrl": "/images/events/beyond-bubble.webp",
+      "thumbnailUrl": "/images/events/beyond-bubble-thumb.webp",
+      "altText": "Promotional poster for Her Tech Wing panel: Beyond the Bubble"
+    },
+    "featured": true,
+    "s04FormId": "S04-2026-NOV-01",
+    "recap": null
+  },
+  {
+    "id": "github-workshop-session-2",
+    "title": "GitHub Workshop Session 2: PRs, Merge Conflicts & Open Source",
+    "tagline": "Master branch management, collaborative workflows, and GitHub Actions CI.",
+    "description": "An intensive hands-on technical workshop covering git rebase, interactive rebasing, resolving complex merge conflicts, and opening production-grade pull requests.",
+    "date": "2026-10-14",
+    "time": {
+      "start": "14:00",
+      "end": "16:00",
+      "timezone": "PKT (UTC+5)"
+    },
+    "venue": {
+      "name": "Hassan Abidi PC Lab",
+      "campus": "FAST NUCES Peshawar",
+      "room": "Lab 1",
+      "isVirtual": false,
+      "virtualLink": null
+    },
+    "category": "Workshop",
+    "tags": ["Git", "GitHub", "DevOps", "Open Source", "Collaboration"],
+    "status": "completed",
+    "registrationUrl": null,
+    "registrationDeadline": "2026-10-13T23:59:59+05:00",
+    "speakers": [
+      {
+        "name": "Rayyan Shaheer",
+        "role": "President & Former AWS Cloud Club Captain",
+        "organization": "Microsoft Student Ambassadors FAST Peshawar",
+        "photoUrl": "/images/team/p230557.webp",
+        "linkedinUrl": "https://linkedin.com/in/rayyanshaheer"
+      }
+    ],
+    "image": {
+      "posterUrl": "/images/events/github-session-2-poster.webp",
+      "thumbnailUrl": "/images/events/github-session-2-thumb.webp",
+      "altText": "Promotional poster for GitHub Session 2 on PRs and Merge Conflicts"
+    },
+    "featured": false,
+    "s04FormId": "S04-2026-OCT-02",
+    "recap": {
+      "attendeeCount": 48,
+      "photoAlbumUrl": "https://photos.app.goo.gl",
+      "reportUrl": "/reports/github-session-2-recap.pdf"
+    }
+  }
+]

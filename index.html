@@ -1,0 +1,63 @@
+---
+layout: default
+title: "Home"
+description: "Official web portal of Microsoft Student Ambassadors at FAST NUCES Peshawar. Building technical excellence in Cloud, AI, and DevOps."
+css: "/home/home.css"
+js: "/home/home.js"
+---
+
+<!-- 
+  ========================================================================
+  ASSIGNED DEVELOPER: Muhammad Fasih Zeeshan (home/)
+  DEVELOPER MANDATE:
+  - Hero banner with chapter tagline and primary CTA ("Join Us" & "Explore Events")
+  - Chapter mission overview cards
+  - Dynamic upcoming events preview card (consuming _data/events.json)
+  - Ensure all styling uses theme.css CSS variables (no hardcoded colors)
+  ========================================================================
+-->
+
+<section class="home-hero">
+  <div class="container">
+    <div class="home-hero-content">
+      <span class="home-badge">Microsoft Student Ambassadors &bull; FAST Peshawar</span>
+      <h1 class="home-title">Empowering Future Tech Leaders & Builders</h1>
+      <p class="home-lead">
+        Welcome to the official chapter of Microsoft Student Ambassadors at FAST-NUCES Peshawar.
+        We cultivate hands-on technical excellence in Cloud Native, Artificial Intelligence, and DevOps through student-led workshops, hackathons, and community mentorship.
+      </p>
+      <div class="home-cta-group">
+        <a href="/join/" class="btn-primary">Join Our Chapter</a>
+        <a href="/events/" class="btn-secondary">Upcoming Events</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="home-events-preview">
+  <div class="container">
+    <div class="section-header">
+      <h2>Upcoming Workshops & Sessions</h2>
+      <p>Stay tuned with our latest technical events and hands-on bootcamps.</p>
+    </div>
+    <div id="home-events-container" class="home-events-grid">
+      <!-- Events dynamically injected via home.js or Liquid from _data/events.json -->
+      {% for event in site.data.events %}
+        {% if event.featured %}
+          <article class="event-card">
+            <span class="event-badge">{{ event.category }}</span>
+            <h3>{{ event.title }}</h3>
+            <p>{{ event.tagline }}</p>
+            <div class="event-meta">
+              <span>📅 {{ event.date }}</span>
+              <span>📍 {{ event.venue.name }}</span>
+            </div>
+            {% if event.registrationUrl %}
+              <a href="{{ event.registrationUrl }}" class="btn-primary" target="_blank" rel="noopener noreferrer">Register Now</a>
+            {% endif %}
+          </article>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>

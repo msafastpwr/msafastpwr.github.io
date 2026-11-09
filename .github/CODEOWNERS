@@ -1,0 +1,17 @@
+# Microsoft Student Ambassadors FAST Peshawar
+# Repository Code Ownership (.github/CODEOWNERS)
+# 
+# Mandatory reviews required prior to merging into main.
+# Technical Leadership:
+# Lead: Waleeja Khan (@waleeja07-wk)
+# Co-Lead: Mohsin Ali
+
+*                       @waleeja07-wk
+/_layouts/              @waleeja07-wk
+/_includes/             @waleeja07-wk
+/assets/css/            @waleeja07-wk
+/base/                  @waleeja07-wk
+/_data/events.json      @waleeja07-wk
+/_data/team.json        @waleeja07-wk
+/schemas/               @waleeja07-wk
+/.github/               @waleeja07-wk
