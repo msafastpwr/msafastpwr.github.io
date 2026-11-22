@@ -32,3 +32,6 @@ env/
 # Environment Variables & Logs
 .env
 *.log
+
+# Ruby / Bundler
+Gemfile.lock
