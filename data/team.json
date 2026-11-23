@@ -121,14 +121,14 @@
     "rollNo": "23P-0591",
     "tier": "executive",
     "tierRank": 1,
-    "role": "Exectuive Advisor",
+    "role": "Executive Advisor",
     "primaryDepartment": "Executive Board",
     "secondaryDepartment": null,
     "email": "23p0591@pwr.nu.edu.pk",
     "photo": {
       "url": "/images/team/23p0591.webp",
       "placeholderUrl": "/images/team/placeholder.webp",
-      "alt": "Portrait of AbdulRaheem, Exectuive Advisor"
+      "alt": "Portrait of AbdulRaheem, Executive Advisor"
     },
     "socialLinks": {
       "linkedin": "https://linkedin.com",
@@ -137,10 +137,10 @@
       "portfolio": null
     },
     "badges": [
-      "Exectuive Advisor",
+      "Executive Advisor",
       "Executive Board"
     ],
-    "bio": "Exectuive Advisor of Microsoft Student Ambassadors FAST Peshawar chapter.",
+    "bio": "Executive Advisor of Microsoft Student Ambassadors FAST Peshawar chapter.",
     "isActive": true,
     "tenure": "2026-2027"
   },
@@ -345,7 +345,7 @@
   },
   {
     "id": "mueez-khalid",
-    "name": "Mueez khalid",
+    "name": "Mueez Khalid",
     "rollNo": "24P-0742",
     "tier": "member",
     "tierRank": 3,
@@ -356,7 +356,7 @@
     "photo": {
       "url": "/images/team/24p0742.webp",
       "placeholderUrl": "/images/team/placeholder.webp",
-      "alt": "Portrait of Mueez khalid, Member"
+      "alt": "Portrait of Mueez Khalid, Member"
     },
     "socialLinks": {
       "linkedin": "https://linkedin.com",
@@ -849,7 +849,7 @@
   },
   {
     "id": "syed-kumail-abbas-sherazi",
-    "name": "Syed kumail Abbas Sherazi",
+    "name": "Syed Kumail Abbas Sherazi",
     "rollNo": "26P-3034",
     "tier": "member",
     "tierRank": 3,
@@ -860,7 +860,7 @@
     "photo": {
       "url": "/images/team/26p3034.webp",
       "placeholderUrl": "/images/team/placeholder.webp",
-      "alt": "Portrait of Syed kumail Abbas Sherazi, Member"
+      "alt": "Portrait of Syed Kumail Abbas Sherazi, Member"
     },
     "socialLinks": {
       "linkedin": "https://linkedin.com",
@@ -911,7 +911,7 @@
     "tierRank": 2,
     "role": "Lead",
     "primaryDepartment": "Her Tech Wing",
-    "secondaryDepartment": "Her Tech Wing",
+    "secondaryDepartment": null,
     "email": "24p0682@pwr.nu.edu.pk",
     "photo": {
       "url": "/images/team/24p0682.webp",
@@ -1245,7 +1245,7 @@
   },
   {
     "id": "muhammad-irtaza",
-    "name": "Muhammad irtaza",
+    "name": "Muhammad Irtaza",
     "rollNo": "25P-0649",
     "tier": "leadership",
     "tierRank": 2,
@@ -1256,7 +1256,7 @@
     "photo": {
       "url": "/images/team/25p0649.webp",
       "placeholderUrl": "/images/team/placeholder.webp",
-      "alt": "Portrait of Muhammad irtaza, Lead"
+      "alt": "Portrait of Muhammad Irtaza, Lead"
     },
     "socialLinks": {
       "linkedin": "https://linkedin.com",
@@ -1443,7 +1443,7 @@
   },
   {
     "id": "muhammad-afroze-naeem",
-    "name": "Muhammad afroze naeem",
+    "name": "Muhammad Afroze Naeem",
     "rollNo": "26P-0514",
     "tier": "member",
     "tierRank": 3,
@@ -1454,7 +1454,7 @@
     "photo": {
       "url": "/images/team/26p0514.webp",
       "placeholderUrl": "/images/team/placeholder.webp",
-      "alt": "Portrait of Muhammad afroze naeem, Member"
+      "alt": "Portrait of Muhammad Afroze Naeem, Member"
     },
     "socialLinks": {
       "linkedin": "https://linkedin.com",
@@ -1612,7 +1612,7 @@
   },
   {
     "id": "raheel-khan",
-    "name": "Raheel khan",
+    "name": "Raheel Khan",
     "rollNo": "26P-0529",
     "tier": "member",
     "tierRank": 3,
@@ -1623,7 +1623,7 @@
     "photo": {
       "url": "/images/team/26p0529.webp",
       "placeholderUrl": "/images/team/placeholder.webp",
-      "alt": "Portrait of Raheel khan, Member"
+      "alt": "Portrait of Raheel Khan, Member"
     },
     "socialLinks": {
       "linkedin": "https://linkedin.com",
