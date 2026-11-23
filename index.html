@@ -34,30 +34,71 @@ js: "/home/home.js"
   </div>
 </section>
 
+<!-- Mission Cards -->
+<section class="home-mission">
+  <div class="container">
+    <div class="section-header">
+      <h2>Our Mission</h2>
+      <p>Three pillars driving everything we do at MSA FAST Peshawar.</p>
+    </div>
+    <div class="home-mission-grid">
+      <article class="home-mission-card">
+        <span class="home-mission-icon">☁️</span>
+        <h3>Cloud Native</h3>
+        <p>Hands-on Azure, serverless, and cloud architecture workshops for real-world skills.</p>
+      </article>
+      <article class="home-mission-card">
+        <span class="home-mission-icon">🤖</span>
+        <h3>Artificial Intelligence</h3>
+        <p>From ML basics to production AI — building intelligent solutions with modern tooling.</p>
+      </article>
+      <article class="home-mission-card">
+        <span class="home-mission-icon">⚙️</span>
+        <h3>DevOps & Open Source</h3>
+        <p>CI/CD, Git workflows, and collaborative development practices for shipping quality code.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
 <section class="home-events-preview">
+
   <div class="container">
     <div class="section-header">
       <h2>Upcoming Workshops & Sessions</h2>
       <p>Stay tuned with our latest technical events and hands-on bootcamps.</p>
     </div>
     <div id="home-events-container" class="home-events-grid">
-      <!-- Events dynamically injected via home.js or Liquid from _data/events.json -->
-      {% for event in site.data.events %}
-        {% if event.featured %}
+      {% assign upcoming = site.data.events | where: "status", "upcoming" | sort: "date" %}
+      {% if upcoming.size > 0 %}
+        {% for event in upcoming limit: 3 %}
           <article class="event-card">
             <span class="event-badge">{{ event.category }}</span>
             <h3>{{ event.title }}</h3>
             <p>{{ event.tagline }}</p>
             <div class="event-meta">
-              <span>📅 {{ event.date }}</span>
+              <span>📅 {{ event.date | date: "%-d %b %Y" }}</span>
               <span>📍 {{ event.venue.name }}</span>
             </div>
             {% if event.registrationUrl %}
               <a href="{{ event.registrationUrl }}" class="btn-primary" target="_blank" rel="noopener noreferrer">Register Now</a>
             {% endif %}
           </article>
-        {% endif %}
-      {% endfor %}
+        {% endfor %}
+      {% else %}
+        <p class="home-no-events">No upcoming events scheduled right now. Check back soon!</p>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<!-- Ready to Join CTA -->
+<section class="home-join-cta">
+  <div class="container">
+    <div class="home-join-content">
+      <h2>Ready to Join?</h2>
+      <p>Become part of a growing community of developers, designers, and innovators at FAST Peshawar.</p>
+      <a href="/join/" class="btn-primary">Get Started</a>
     </div>
   </div>
 </section>

@@ -117,3 +117,100 @@
   margin: 1rem 0;
   flex-wrap: wrap;
 }
+/* --- Mission Cards --- */
+.home-mission {
+  padding: 4rem 0;
+  background: var(--bg-surface);
+}
+
+.home-mission-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.home-mission-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--border-radius-md);
+  padding: 2rem 1.5rem;
+  text-align: center;
+  box-shadow: var(--card-shadow);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.home-mission-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--card-shadow-hover);
+}
+
+.home-mission-icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.home-mission-card h3 {
+  font-size: var(--font-size-h3);
+  margin-bottom: 0.75rem;
+  color: var(--text-primary);
+}
+
+.home-mission-card p {
+  font-size: var(--font-size-sm);
+  color: var(--text-secondary);
+  line-height: var(--line-height-normal);
+}
+
+/* --- Empty Events Message --- */
+.home-no-events {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--text-muted);
+  font-size: var(--font-size-body);
+}
+
+/* --- Join CTA --- */
+.home-join-cta {
+  padding: 4rem 0;
+  background: var(--bg-surface);
+  border-top: 1px solid var(--border-subtle);
+}
+
+.home-join-content {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.home-join-content h2 {
+  font-size: var(--font-size-h2);
+  margin-bottom: 1rem;
+}
+
+.home-join-content p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: var(--text-secondary);
+}
+
+/* --- 360px Mobile --- */
+@media (max-width: 360px) {
+  .home-cta-group {
+    flex-direction: column;
+  }
+
+  .home-cta-group .btn-primary,
+  .home-cta-group .btn-secondary {
+    width: 100%;
+  }
+
+  .home-events-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-mission-grid {
+    grid-template-columns: 1fr;
+  }
+}
