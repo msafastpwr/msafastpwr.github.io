@@ -6,46 +6,40 @@ css: "/events/events.css"
 js: "/events/events.js"
 ---
 
-<section class="events-page">
+<section class="events-hero">
+  <div class="container">
+    <header class="events-header">
+      <span class="events-tag">MSA FAST NUCES Peshawar</span>
 
-  <header class="events-header">
-    <div class="events-header-badge">
-      <span class="events-header-dot" aria-hidden="true"></span>
-      <span>MSA FAST NUCES Peshawar</span>
-    </div>
-    <h1>Community Events</h1>
-    <p>Technical workshops, speaker panels, and hands-on sessions—trace what we've built and see what's coming next.</p>
+      <h1>Community Events</h1>
+      <p class="events-lead">Technical workshops, speaker panels, and hands-on sessions—trace what we've built and see what's coming next.</p>
 
-    <div class="events-controls" role="toolbar" aria-label="Timeline controls">
-      <div class="events-filters" role="group" aria-label="Filter events by time">
-        <button type="button" class="events-filter-btn is-active" data-filter="all" aria-pressed="true">
-          All <span class="events-filter-count" id="count-all">0</span>
-        </button>
-        <button type="button" class="events-filter-btn" data-filter="upcoming" aria-pressed="false">
-          Upcoming <span class="events-filter-count" id="count-upcoming">0</span>
-        </button>
-        <button type="button" class="events-filter-btn" data-filter="past" aria-pressed="false">
-          Past <span class="events-filter-count" id="count-past">0</span>
+      <div class="events-controls" role="toolbar" aria-label="Timeline controls">
+        <div class="events-filters" role="group" aria-label="Filter events by time">
+          <button type="button" class="events-filter-btn is-active" data-filter="all" aria-pressed="true">
+            All <span class="events-filter-count" id="count-all">0</span>
+          </button>
+          <button type="button" class="events-filter-btn" data-filter="upcoming" aria-pressed="false">
+            Upcoming <span class="events-filter-count" id="count-upcoming">0</span>
+          </button>
+          <button type="button" class="events-filter-btn" data-filter="past" aria-pressed="false">
+            Past <span class="events-filter-count" id="count-past">0</span>
+          </button>
+        </div>
+
+        <button type="button" class="events-jump-btn" id="events-jump-today">
+          <span class="events-jump-pulse" aria-hidden="true"></span>
+          Jump to Today
         </button>
       </div>
+    </header>
+  </div>
+</section>
 
-      <button type="button" class="events-jump-btn" id="events-jump-today">
-        <span class="events-jump-pulse" aria-hidden="true"></span>
-        Jump to Today
-      </button>
-    </div>
-  </header>
-
+<section class="events-page">
   <div class="events-timeline" id="events-timeline" data-filter-state="all">
+    <div class="events-list events-list-upcoming" id="events-upcoming" aria-label="Upcoming events"></div>
 
-    <!-- Upcoming events (farthest first, nearest sits next to TODAY) -->
-    <div
-      class="events-list events-list-upcoming"
-      id="events-upcoming"
-      aria-label="Upcoming events"
-    ></div>
-
-    <!-- Present horizon marker -->
     <div class="events-present" id="events-present">
       <div class="events-present-line" aria-hidden="true"></div>
       <div class="events-present-pill">
@@ -56,42 +50,19 @@ js: "/events/events.js"
       </div>
     </div>
 
-    <!-- Past events (most recent first) -->
-    <div
-      class="events-list events-list-past"
-      id="events-past"
-      aria-label="Past events"
-    ></div>
-
+    <div class="events-list events-list-past" id="events-past" aria-label="Past events"></div>
   </div>
 
-  <p class="events-empty" id="events-empty" hidden>
-    No events to display yet.
-  </p>
-
+  <p class="events-empty" id="events-empty" hidden>No events to display yet.</p>
 </section>
 
-<!-- Event details popup -->
 <dialog class="events-modal" id="events-modal" aria-label="Event details">
-
   <div class="events-modal-content">
-
-    <button
-      class="events-modal-close"
-      id="events-modal-close"
-      type="button"
-      aria-label="Close event details"
-    >
-      &times;
-    </button>
-
+    <button class="events-modal-close" id="events-modal-close" type="button" aria-label="Close event details">&times;</button>
     <div id="events-modal-body"></div>
-
   </div>
-
 </dialog>
 
-<!-- Event data supplied by Jekyll -->
 <script type="application/json" id="events-data">
   {{ site.data.events | jsonify }}
 </script>
