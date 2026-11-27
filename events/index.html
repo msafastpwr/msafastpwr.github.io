@@ -1,62 +1,68 @@
 ---
 layout: default
 title: "Events"
-description: "Workshops, technical bootcamps, and developer webinars hosted by Microsoft Student Ambassadors FAST Peshawar."
+description: "Explore upcoming and past events at Microsoft Student Ambassadors FAST Peshawar."
 css: "/events/events.css"
 js: "/events/events.js"
 ---
 
-<!-- 
-  ========================================================================
-  ASSIGNED DEVELOPER: Mohsin Ali (events/)
-  DEVELOPER MANDATE:
-  - Upcoming workshops and sessions preview
-  - Past events archive with recaps, photos, and attendance metrics
-  - RSVP registration links & speaker showcases
-  - Centralized data contract: _data/events.json
-  ========================================================================
--->
-
 <section class="events-hero">
   <div class="container">
-    <div class="events-header">
-      <span class="events-tag">Events & Workshops</span>
-      <h1>Hands-on Technical Bootcamps & Sessions</h1>
-      <p class="events-lead">
-        Learn cutting-edge skills in Cloud computing, DevOps, Artificial Intelligence, and Open Source.
-      </p>
-    </div>
+    <header class="events-header">
+      <span class="events-tag">MSA FAST NUCES Peshawar</span>
+
+      <h1>Community Events</h1>
+      <p class="events-lead">Technical workshops, speaker panels, and hands-on sessions—trace what we've built and see what's coming next.</p>
+
+      <div class="events-controls" role="toolbar" aria-label="Timeline controls">
+        <div class="events-filters" role="group" aria-label="Filter events by time">
+          <button type="button" class="events-filter-btn is-active" data-filter="all" aria-pressed="true">
+            All <span class="events-filter-count" id="count-all">0</span>
+          </button>
+          <button type="button" class="events-filter-btn" data-filter="upcoming" aria-pressed="false">
+            Upcoming <span class="events-filter-count" id="count-upcoming">0</span>
+          </button>
+          <button type="button" class="events-filter-btn" data-filter="past" aria-pressed="false">
+            Past <span class="events-filter-count" id="count-past">0</span>
+          </button>
+        </div>
+
+        <button type="button" class="events-jump-btn" id="events-jump-today">
+          <span class="events-jump-pulse" aria-hidden="true"></span>
+          Jump to Today
+        </button>
+      </div>
+    </header>
   </div>
 </section>
 
-<section class="events-section">
-  <div class="container">
-    <div class="events-filter-bar">
-      <button type="button" class="events-filter-btn active" data-filter="all">All Sessions</button>
-      <button type="button" class="events-filter-btn" data-filter="upcoming">Upcoming</button>
-      <button type="button" class="events-filter-btn" data-filter="completed">Past Events</button>
+<section class="events-page">
+  <div class="events-timeline" id="events-timeline" data-filter-state="all">
+    <div class="events-list events-list-upcoming" id="events-upcoming" aria-label="Upcoming events"></div>
+
+    <div class="events-present" id="events-present">
+      <div class="events-present-line" aria-hidden="true"></div>
+      <div class="events-present-pill">
+        <span class="events-present-dot" aria-hidden="true"></span>
+        <span class="events-present-title">TODAY</span>
+        <span class="events-present-sep" aria-hidden="true">•</span>
+        <span class="events-present-date" id="events-today-date"></span>
+      </div>
     </div>
 
-    <div id="events-grid" class="events-grid">
-      <!-- Data-driven event cards rendered from _data/events.json -->
-      {% for event in site.data.events %}
-        <article class="events-card" data-status="{{ event.status }}">
-          <div class="events-card-header">
-            <span class="events-badge events-badge-{{ event.status }}">{{ event.status | capitalize }}</span>
-            <span class="events-category">{{ event.category }}</span>
-          </div>
-          <h3>{{ event.title }}</h3>
-          <p>{{ event.tagline }}</p>
-          <div class="events-meta">
-            <span>📅 {{ event.date }}</span>
-            <span>⏰ {{ event.time.start }} - {{ event.time.end }} {{ event.time.timezone }}</span>
-            <span>📍 {{ event.venue.name }}</span>
-          </div>
-          {% if event.registrationUrl %}
-            <a href="{{ event.registrationUrl }}" class="btn-primary" target="_blank" rel="noopener noreferrer">RSVP / Register</a>
-          {% endif %}
-        </article>
-      {% endfor %}
-    </div>
+    <div class="events-list events-list-past" id="events-past" aria-label="Past events"></div>
   </div>
+
+  <p class="events-empty" id="events-empty" hidden>No events to display yet.</p>
 </section>
+
+<dialog class="events-modal" id="events-modal" aria-label="Event details">
+  <div class="events-modal-content">
+    <button class="events-modal-close" id="events-modal-close" type="button" aria-label="Close event details">&times;</button>
+    <div id="events-modal-body"></div>
+  </div>
+</dialog>
+
+<script type="application/json" id="events-data">
+  {{ site.data.events | jsonify }}
+</script>
